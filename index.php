@@ -16,6 +16,7 @@
     <!-- Inizio esercizio google faq -->
 
     <header>
+        <!-- Header-top -->
         <div class="cont-header">
             <div class="logo-title">
                 <img src="./img/google.png" alt="Google Logo">
@@ -48,7 +49,7 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Main -->
     <main class="cont-main">
         <!-- Faqs Google -->
         <?php
