@@ -1,0 +1,11 @@
+// UTILITIES
+.logo-title h3,
+.nav-list li,
+.languages img,
+.languages #lang {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

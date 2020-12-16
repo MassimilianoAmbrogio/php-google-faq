@@ -1,0 +1,50 @@
+// FOOTER
+footer {
+    padding: 10px 15px 10px 15px;
+    font-size: 11px;
+    background: $grey;
+    border-top: 1px solid $tertiary-col;
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .refs {
+        display: inline-flex;
+
+        li {
+            margin-right: 10px;
+            font-size: 11px;
+            line-height: 24px;
+            font-weight: 300;
+            letter-spacing: 0;
+            list-style: none;
+
+            a {
+                color: $secondary-col;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .languages {
+        width: 150px;
+        height: 20px;
+    }
+
+    .languages img {
+        float: left;
+        margin-top: 3px;
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+
+    .languages #lang {
+        float: right;
+        width: 126px;
+    }
+}

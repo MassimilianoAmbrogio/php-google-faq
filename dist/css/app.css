@@ -8,21 +8,106 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.logo-title h3:after,
+.nav-list li:after,
+.languages img:after,
+.languages #lang:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header {
   width: 100%;
   height: 100px;
   border-bottom: 1px solid #e5e5e5;
 }
 
+header .cont-header {
+  width: 100%;
+  height: 58px;
+}
+
+header .logo-title {
+  width: 262px;
+  height: 58px;
+  margin-left: 12px;
+}
+
+header .logo-title img {
+  width: 100px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+header .logo-title h3 {
+  float: right;
+  margin-top: 22px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #5f6368;
+}
+
+header .cont-header .menu-rx {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  top: 10px;
+  left: 93%;
+}
+
+header .cont-header .fa-th {
+  padding: 12px;
+  font-size: 22px;
+  color: #5f6368;
+  border-radius: 50%;
+}
+
+header .cont-header .fa-th:hover {
+  background: #e5e5e5;
+}
+
+header .cont-header .fa-user {
+  margin-left: 40px;
+  font-size: 30px;
+  color: #5f6368;
+}
+
+header .nav-list {
+  width: 50%;
+  height: 40px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+header .nav-list li {
+  float: left;
+  margin-top: 12px;
+  margin-right: 50px;
+  list-style: none;
+  font-weight: 500;
+}
+
+header .nav-list a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+header .nav-list .active a {
+  padding-bottom: 6px;
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
 .cont-main {
   width: 100%;
   height: 20%;
-  margin-top: 120px;
-  background: #009cff;
+  margin-top: 110px;
 }
 
 .cont-main .container h2 {
   padding: 0px 450px;
+  font-weight: 600;
   color: #3c4043;
 }
 
@@ -30,5 +115,56 @@ header {
   padding: 20px 450px;
   line-height: 28px;
   color: #000;
+}
+
+footer {
+  padding: 10px 15px 10px 15px;
+  font-size: 11px;
+  background: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .refs {
+  display: inline-flex;
+}
+
+footer .refs li {
+  margin-right: 10px;
+  font-size: 11px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  list-style: none;
+}
+
+footer .refs li a {
+  color: #5f6368;
+  text-decoration: none;
+}
+
+footer .languages {
+  width: 150px;
+  height: 20px;
+}
+
+footer .languages img {
+  float: left;
+  margin-top: 3px;
+}
+
+footer .languages img:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .languages #lang {
+  float: right;
+  width: 126px;
 }
 
