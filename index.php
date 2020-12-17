@@ -92,7 +92,7 @@ $faqs = [
             </ul>
         </nav>
     </header>
-    
+
     <!-- Main -->
     <main class="cont-main">
         <!-- Main content -->
@@ -134,6 +134,7 @@ $faqs = [
         </div>
     </footer>
 
+    <!-- JS -->
     <script src="dist/js/app.js"></script>
 
     <!-- Fine esercizio google faq -->
