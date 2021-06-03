@@ -111,24 +111,24 @@ $faqs = [
         <div class="container">
             <ul class="refs">
                 <li class="first">
-                    <a href="#">Google</a>
+                    <a href="https://www.google.com">Google</a>
                 </li>
                 <li>
-                    <a href="#">Tutto su Google</a>
+                    <a href="https://about.google/">Tutto su Google</a>
                 </li>
                 <li>
-                    <a href="#">Privacy</a>
+                    <a href="https://policies.google.com/privacy?hl=it">Privacy</a>
                 </li>
                 <li>
-                    <a href="#">Termini</a>
+                    <a href="https://policies.google.com/terms?hl=it">Termini</a>
                 </li>
             </ul>
             <div class="languages">
                 <img src="./img/footer.png" alt="Logo languages">
                 <select name="lang" id="lang">
-                    <option value="ita">Italiano</option>
-                    <option value="eng">English</option>
-                    <option value="spa">Espanol</option>
+                   <option value="it">Italiano</option>
+                   <option value="en">English</option>
+                   <option value="es">Espanol</option>
                 </select>
             </div>
         </div>
